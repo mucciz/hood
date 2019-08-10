@@ -1,0 +1,165 @@
+ .carousel-inner {
+  height: 100%;
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url("../img/slide2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(3) {
+  background-image: url("../img/slide3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#nav{
+  box-shadow: none !important;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+
+}
+.log{
+  padding: 5px;
+  color: rgba(0,0,0,0.5);
+  font-weight: 500;
+
+}
+.log:hover{
+  color: rgba(0,0,0,0.8);
+}
+#nav > a:first-child{
+  color :green;
+}
+#ho{
+  color:green;
+}
+@media screen and (min-width:1000px) {
+  #upload{
+    position: relative;
+    right: -520px;
+    top: -57px;
+    opacity: 0.8;
+  }
+
+}
+#health{
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+#pro{
+  color:white;
+  height: 91vh;
+  background-color: rgba(0,0,0,0.9);
+}
+.imagePro{
+  height: 50vh;
+  background-image: url(../img/neii.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.overlay{
+    height: 50vh;
+    background-color: rgba(0,0,0,0.5);
+}
+#search{
+  padding: 50px;
+  margin-left: 250px;
+  opacity: 0.7;
+}
+.edit{
+  text-align: center;
+}
+.img{
+  height: 50vh;
+  background-image: url(../img/pro.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+.name{
+  font-weight: 500;
+}
+.pap{
+  padding: 10px;
+}
+#show{
+  display: none;
+
+}
+/* .feeds{
+  overflow-y: auto;
+  height: 600px;
+}
+::-webkit-scrollbar{
+  display: none;
+} */
+#top{
+  border: 1px solid rgba(0,0,0,0.2);
+  box-shadow: none !important;
+}
+#top h4{
+  text-align: center;
+  color:green;
+}
+.image{
+
+}
+.form{
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+.forms{
+  border: 1px solid white;
+  padding: 15px;
+}
+#login{
+  background-image: url(../img/slide1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.loginn{
+  padding-top: 70px;
+
+}
+.loginn form{
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+
+}
+.sizee{
+  padding: 30px;
+}
+.overly{
+  height: 100%;
+  width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.logins{
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+}
+.logins i{
+  padding: 10px;
+
+}
+.searched{
+  margin: auto;
+  width: 70%;
+}
+.searched h5{
+  color: white;
+}
+.makeFeed{
+  width: 80%;
+  margin: auto;
+}
+.makeFeed input{
+  padding: 8px !important;
+}
